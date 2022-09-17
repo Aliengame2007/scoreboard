@@ -1,6 +1,24 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></head>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
     <body>
-        
+        <div class="container">
+            <div class="wrapper">
+                <h3>HOME</h3>
+                <span id="home-count"></span><br>
+                <button onclick="homeAdd1()">+1</button>
+                <button onclick="homeAdd2()">+2</button>
+                <button onclick="homeAdd3()">+3</button>
+            </div>
+            <div class="wrapper">
+                <h3>AWAY</h3>
+                <span id="guest-count"></span><br>
+                <button onclick="guestAdd1()">+1</button>
+                <button onclick="guestAdd2()">+2</button>
+                <button onclick="guestAdd3()">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>
